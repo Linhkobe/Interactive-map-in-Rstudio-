@@ -1,2 +1,1 @@
-# Interactive-map-in-Rstudio-
-In the context of my first internship in France, I made an interactive map in Rstudio using rbokeh package. The dataset included ski schools in France along with their GPS coordinates (longitude, latitude) and the number of respondents to the survey for each school. The final product will help us to see fields on the map as dots. When you move the mouse to a point, it will display the school name and the number of respondents of the survey in each school. We can zoom in or out as we like using the mouse, save it as an image or an html link.
+
