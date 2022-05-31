@@ -1,0 +1,41 @@
+---
+title: "Cartographie"
+author: "TUAN_LINH_DAO"
+date: '2022-05-24'
+output: word_document
+---
+
+### Télécharger les packages
+```{r}
+install.packages(c("cowplot", "googleway", "ggplot2", "ggrepel", 
+"ggspatial", "libwgeom", "sf", "rnaturalearth", "rnaturalearthdata"))
+```
+
+```{r}
+library("ggplot2")
+theme_set(theme_bw())
+library("sf")
+library("rnaturalearth")
+library("rnaturalearthdata")
+```
+
+
+```{r}
+world <- ne_countries(scale = "medium", returnclass = "sf")
+plot(world)
+```
+
+
+```{r}
+ggplot(data = "FRA") +
+    geom_sf()
+```
+
+
+
+
+
+
+
+
+
